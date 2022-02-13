@@ -12,6 +12,9 @@ body {
 a {
   text-decoration: none; }
 
+.text-center {
+  text-align: center; }
+
 .landing__heading-primary {
   font-size: 3.6rem;
   text-align: center;
@@ -35,6 +38,13 @@ a {
 
 .section-listen-text {
   max-width: 35rem; }
+
+.heading-tertiary {
+  font-size: 1.6rem; }
+
+.small-text {
+  font-size: 1.2rem;
+  color: rgba(238, 238, 238, 0.8); }
 
 .btn {
   background-color: none;
@@ -155,9 +165,10 @@ a {
   .section-music-hero {
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-bottom: 10rem; }
     .section-music-hero--img {
-      width: 50%;
+      width: 45%;
       box-sizing: border-box; }
       .section-music-hero--img img {
         width: 100%; }
@@ -166,3 +177,24 @@ a {
       display: flex;
       flex-direction: column;
       gap: 3rem; }
+  .section-music--icons {
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 70rem;
+    margin: 4rem auto; }
+    .section-music--icons-box {
+      text-align: center;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      align-items: center; }
+      .section-music--icons-box img {
+        padding: 1rem;
+        border-radius: 50%;
+        background-color: #363535;
+        width: 9rem;
+        height: 9rem;
+        margin-bottom: 1.5rem; }
