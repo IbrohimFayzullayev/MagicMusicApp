@@ -23,6 +23,10 @@ a {
 .price-text {
   color: #30baf4; }
 
+.landing-text-box {
+  font-size: 1.6rem;
+  line-height: 1.7; }
+
 .btn {
   background-color: none;
   font-size: 1.6rem;
@@ -41,8 +45,20 @@ a {
   .btn--linear:hover {
     background-image: linear-gradient(to right, #30baf4, #7255ee);
     border: 0.2rem solid rgba(48, 186, 244, 0.4); }
-  .btn--linear:link, .btn--linear:active {
-    background-image: linear-gradient(to right, #30baf4, #7255ee); }
+  .btn--linear:active {
+    background-image: linear-gradient(to right, rgba(48, 186, 244, 0.4), rgba(114, 85, 238, 0.4)); }
+
+.grid {
+  display: grid; }
+
+.grid-2-cols {
+  grid-template-columns: 1fr 1fr; }
+
+.grid-3-cols {
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr); }
 
 .header__landing {
   display: flex;
@@ -63,12 +79,13 @@ a {
   align-items: center; }
 
 .section-hero {
-  width: 100vw;
+  width: 98.9vw;
   height: 100vh;
   background-image: url(../../img/landing-hero-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
   color: #fff; }
   .section-hero--box {
     margin-top: 15rem;
@@ -81,3 +98,31 @@ a {
 .container {
   max-width: 120rem;
   margin: 0 auto; }
+
+.section-flow {
+  overflow: hidden;
+  padding: 7rem 0;
+  background-color: #161a1a;
+  color: #fff; }
+  .section-flow--box {
+    display: flex;
+    gap: 15rem;
+    align-items: center; }
+  .section-flow--img {
+    width: 50%;
+    box-sizing: border-box; }
+    .section-flow--img img {
+      width: 100%; }
+
+.flow-info {
+  width: 50%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 40rem; }
+  .flow-info--title {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem; }
+  .flow-info--heading {
+    font-size: 4.2rem; }

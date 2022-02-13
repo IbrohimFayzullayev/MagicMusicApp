@@ -1,10 +1,11 @@
 .section-hero {
-  width: 100vw;
+  width: 98.9vw;
   height: 100vh;
   background-image: url(../../img/landing-hero-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
   color: #fff;
   &--box {
     margin-top: 15rem;
@@ -18,4 +19,37 @@
 .container {
   max-width: 120rem;
   margin: 0 auto;
+}
+.section-flow {
+  overflow: hidden;
+  padding: 7rem 0;
+  background-color: $color-background;
+  color: $color-white;
+  &--box {
+    display: flex;
+    gap: 15rem;
+    align-items: center;
+  }
+  &--img {
+    width: 50%;
+    box-sizing: border-box;
+    img {
+      width: 100%;
+    }
+  }
+}
+.flow-info {
+  width: 50%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 40rem;
+  &--title {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  &--heading {
+    font-size: 4.2rem;
+  }
 }
