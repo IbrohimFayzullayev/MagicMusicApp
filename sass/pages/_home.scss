@@ -67,3 +67,25 @@
     gap: 3rem;
   }
 }
+.section-music {
+  padding: 7rem 0;
+  background-color: $color-background;
+  &-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--img {
+      width: 45%;
+      box-sizing: border-box;
+      img {
+        width: 100%;
+      }
+    }
+    &--info {
+      max-width: 38rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+  }
+}
