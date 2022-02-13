@@ -53,3 +53,17 @@
     font-size: 4.2rem;
   }
 }
+.section-listen {
+  background-image: url(../../img/landing-listening.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  &-info {
+    margin-left: -60rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
