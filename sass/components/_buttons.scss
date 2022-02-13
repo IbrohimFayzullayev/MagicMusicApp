@@ -1,0 +1,39 @@
+.btn {
+  background-color: none;
+  font-size: 1.6rem;
+  color: $color-white;
+  padding: 0.6rem 1.6rem;
+  text-align: center;
+  border: 0.2rem solid $color-white;
+  border-radius: 2.4rem;
+  &--white {
+    &:hover {
+      background-color: $color-white;
+      color: $color-text;
+      cursor: pointer;
+    }
+    &:active,
+    &:link {
+      border: 0.2rem solid $color-primary-dark;
+      color: $color-primary-dark;
+    }
+  }
+  &--linear {
+    &:hover {
+      background-image: linear-gradient(
+        to right,
+        $color-primary,
+        $color-primary-dark
+      );
+      border: 0.2rem solid rgba($color-primary, 0.4);
+    }
+    &:link,
+    &:active {
+      background-image: linear-gradient(
+        to right,
+        $color-primary,
+        $color-primary-dark
+      );
+    }
+  }
+}
