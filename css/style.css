@@ -46,6 +46,21 @@ a {
   font-size: 1.2rem;
   color: rgba(238, 238, 238, 0.8); }
 
+.section-music-card-title {
+  color: rgba(238, 238, 238, 0.4);
+  font-size: 1.6rem;
+  margin: 12rem 0 3rem 0; }
+
+.small-text-bottom1 {
+  opacity: 0;
+  margin-top: 0.6rem;
+  font-size: 1.2rem; }
+
+.small-text-bottom2 {
+  color: rgba(238, 238, 238, 0.4);
+  margin-top: 0.6rem;
+  font-size: 1.2rem; }
+
 .btn {
   background-color: none;
   font-size: 1.6rem;
@@ -66,6 +81,33 @@ a {
     border: 0.2rem solid rgba(48, 186, 244, 0.4); }
   .btn--linear:active {
     background-image: linear-gradient(to right, rgba(48, 186, 244, 0.4), rgba(114, 85, 238, 0.4)); }
+
+.music-card {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  color: #fff;
+  margin: 0 auto; }
+  .music-card-box {
+    border: 0.3rem solid #fff;
+    border-radius: 5px;
+    padding: 2rem;
+    width: 20%;
+    box-sizing: border-box; }
+  .music-card-price {
+    font-size: 1.8rem; }
+  .music-card--list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-top: 5rem; }
+    .music-card--list-row {
+      display: flex;
+      gap: 2rem;
+      font-size: 1.4rem; }
+
+.musicbox-premium {
+  border: 0.3rem solid #30baf4; }
 
 .grid {
   display: grid; }
