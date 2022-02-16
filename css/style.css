@@ -184,6 +184,12 @@ a {
 .grid-4-cols {
   grid-template-columns: repeat(4, 1fr); }
 
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr); }
+
+.grid-6-cols {
+  grid-template-columns: repeat(6, 1fr); }
+
 .header__landing {
   display: flex;
   justify-content: space-between;

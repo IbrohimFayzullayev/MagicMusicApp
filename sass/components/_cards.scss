@@ -1,0 +1,38 @@
+.music-card {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  color: $color-white;
+  margin: 0 auto;
+  &-box {
+    border: 0.3rem solid $color-white;
+    border-radius: 5px;
+    padding: 2rem;
+    width: 20%;
+    box-sizing: border-box;
+  }
+  &-price {
+    font-size: 1.8rem;
+  }
+  &--list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-top: 5rem;
+    &-row {
+      display: flex;
+      gap: 2rem;
+      font-size: 1.4rem;
+    }
+  }
+  &-button {
+    width: 38%;
+    margin: 1rem auto;
+    text-align: center;
+    display: flex;
+    gap: 14rem;
+  }
+}
+.musicbox-premium {
+  border: 0.3rem solid $color-primary;
+}
