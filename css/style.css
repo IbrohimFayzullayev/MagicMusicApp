@@ -61,6 +61,9 @@ a {
   margin-top: 0.6rem;
   font-size: 1.2rem; }
 
+.title_h3 {
+  font-size: 2rem; }
+
 .btn {
   background-color: none;
   font-size: 1.6rem;
@@ -353,3 +356,74 @@ a {
 .main__home {
   background-color: #161a1a;
   color: #fff; }
+
+.section_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0; }
+
+.small_circle {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative; }
+  .small_circle::after, .small_circle::before {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute; }
+  .small_circle::after {
+    right: 1rem; }
+  .small_circle::before {
+    right: 2rem; }
+
+.section__flow {
+  padding: 0 0 10rem 0; }
+
+.flow {
+  width: 100%;
+  gap: 3rem;
+  height: 25rem; }
+  .flow__box {
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .flow__box--img {
+      position: relative; }
+      .flow__box--img--2 {
+        position: absolute;
+        bottom: -3rem;
+        left: 50%;
+        transform: translateX(-50%); }
+      .flow__box--img--1 {
+        border-radius: 1rem;
+        max-width: 15rem; }
+    .flow__box--info {
+      text-align: center;
+      font-size: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      position: relative; }
+    .flow__box--title {
+      font-size: 2.6rem; }
+      .flow__box--title--1 {
+        color: #9da2af; }
+      .flow__box--title--2 {
+        color: #7092f2; }
+      .flow__box--title--3 {
+        color: #6aedb2; }
+    .flow__box--text-2 {
+      position: absolute;
+      bottom: -130%; }
+  .flow__box--1 {
+    background-image: linear-gradient(110deg, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.4) 100%), url(../../img/home/flow-bg-1.png); }
+  .flow__box--2 {
+    background-image: linear-gradient(110deg, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.4) 100%), url(../../img/home/flow-bg-2.jpg); }
+  .flow__box--3 {
+    background-image: linear-gradient(110deg, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.4) 100%), url(../../img/home/flow-bg-3.jpg); }
