@@ -13,3 +13,50 @@
     }
   }
 }
+.header {
+  background-color: $color-background;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 6rem;
+  &__menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    a {
+      text-decoration: none;
+      color: $color-text-2;
+      font-size: 2rem;
+    }
+  }
+  &__input {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    &--search {
+      padding: 0.8rem 1.2rem;
+      width: 14rem;
+      outline: none;
+      border: none;
+      border-radius: 2.5rem;
+      background-color: $color-back-3;
+    }
+    input::placeholder {
+      font-size: 1.6rem;
+      color: $color-white;
+    }
+    select {
+      background: none;
+      border: none;
+      outline: none;
+      color: $color-white;
+      font-size: 1.6rem;
+    }
+  }
+  &--icon {
+    margin-right: -1rem;
+    font-size: 2rem;
+    color: $color-white;
+    font-weight: bold;
+  }
+}
