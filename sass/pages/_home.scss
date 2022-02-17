@@ -45,12 +45,13 @@
   }
 }
 .section__flow {
-  padding: 10rem 0 10rem 0;
+  padding: 0 0 10rem 0;
 }
 .flow {
   width: 100%;
   gap: 3rem;
   height: 25rem;
+  margin-top: 2rem;
   &__box {
     border-radius: 1rem;
     display: flex;

@@ -19,7 +19,6 @@
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
-  align-items: center;
 }
 .like__text {
   display: flex;
@@ -37,4 +36,9 @@
 }
 .boxes__big--space {
   padding: 3rem 0 5rem 0;
+}
+.artist__box {
+  .bottom__info {
+    align-items: center;
+  }
 }
