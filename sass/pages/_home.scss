@@ -14,7 +14,6 @@
   border-radius: 50%;
   background-color: $color-white;
   position: relative;
-  // z-index: 15;
   &::after,
   &::before {
     content: "";
@@ -31,8 +30,21 @@
     right: 2rem;
   }
 }
+.section__allow {
+  font-size: 1.6rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: $color-white;
+    &:first-child {
+      color: $color-text;
+    }
+  }
+}
 .section__flow {
-  padding: 0 0 10rem 0;
+  padding: 10rem 0 10rem 0;
 }
 .flow {
   width: 100%;
@@ -111,4 +123,7 @@
       ),
       url(../../img/home/flow-bg-3.jpg);
   }
+}
+.section-boxes {
+  padding: 4rem 0;
 }

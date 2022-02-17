@@ -1,0 +1,29 @@
+.boxes {
+  gap: 1.5rem;
+  width: 100%;
+}
+.artist__img,
+.gallery__img {
+  width: 100%;
+}
+.gallery__img {
+  border-radius: 1rem;
+}
+.artist__img {
+  border-radius: 50%;
+  border: none;
+}
+.bottom__info {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.like__text {
+  display: flex;
+  gap: 0.5rem;
+  color: $color-text-2;
+  i {
+    font-size: 1.2rem;
+  }
+}

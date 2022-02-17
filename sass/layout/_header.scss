@@ -14,11 +14,16 @@
   }
 }
 .header {
-  background-color: $color-background;
+  background-color: rgba($color-background, 0.8);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 3rem 6rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  backdrop-filter: blur(4px);
+  z-index: 150;
   &__menu {
     display: flex;
     align-items: center;
