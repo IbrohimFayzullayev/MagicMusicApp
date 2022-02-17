@@ -330,6 +330,8 @@ a {
       text-decoration: none;
       color: #929297;
       font-size: 2rem; }
+      .header__menu a:hover {
+        color: #fff; }
   .header__input {
     display: flex;
     align-items: center;
@@ -355,6 +357,20 @@ a {
     font-size: 2rem;
     color: #fff;
     font-weight: bold; }
+  .header__list {
+    font-size: 1.8rem;
+    display: flex;
+    gap: 2rem; }
+    .header__list a {
+      text-decoration: none;
+      color: #929297;
+      padding: 2rem 0;
+      border-bottom: 0.3rem solid transparent;
+      transition: all 0.2s; }
+      .header__list a:hover {
+        color: #fff; }
+      .header__list a:active, .header__list a:visited {
+        border-bottom: 0.3rem solid #30baf4; }
 
 .section-hero-buttons {
   display: flex;
@@ -465,7 +481,8 @@ a {
 
 .main__home {
   background-color: #161a1a;
-  color: #fff; }
+  color: #fff;
+  padding-top: 10rem; }
 
 .section_head {
   display: flex;
