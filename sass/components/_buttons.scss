@@ -42,3 +42,33 @@
     color: $color-primary;
   }
 }
+.play__btn {
+  background-image: linear-gradient(
+    to right,
+    $color-primary,
+    $color-primary-dark
+  );
+  padding: 1rem 5rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+  &:hover {
+    background-image: linear-gradient(
+      to right,
+      $color-primary-dark,
+      $color-primary
+    );
+  }
+}
+.section__title input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  border-bottom: 0.2rem solid $color-white;
+  &::placeholder {
+    color: $color-white;
+    font-size: 1.6rem;
+  }
+}

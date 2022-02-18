@@ -99,6 +99,26 @@ a {
   background-color: rgba(255, 255, 255, 0.8);
   color: #30baf4; }
 
+.play__btn {
+  background-image: linear-gradient(to right, #30baf4, #7255ee);
+  padding: 1rem 5rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s; }
+  .play__btn:hover {
+    background-image: linear-gradient(to right, #7255ee, #30baf4); }
+
+.section__title input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  border-bottom: 0.2rem solid #fff; }
+  .section__title input::placeholder {
+    color: #fff;
+    font-size: 1.6rem; }
+
 .music-card {
   display: flex;
   justify-content: center;
@@ -260,6 +280,61 @@ a {
       height: 0.3rem;
       border-radius: 1rem;
       background-image: linear-gradient(to right, #fff 0%, #fff 60%, #555 60% 100%); }
+
+.artist__hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7rem; }
+  .artist__hero--img {
+    width: 18rem;
+    border-radius: 1rem;
+    overflow: hidden; }
+    .artist__hero--img img {
+      width: 100%;
+      border-radius: 1rem;
+      transition: all 0.3s; }
+      .artist__hero--img img:hover {
+        transform: scale(1.2); }
+  .artist__hero--info {
+    display: flex;
+    gap: 3rem;
+    align-items: center; }
+  .artist__hero--about {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; }
+  .artist__hero--head {
+    font-size: 1.4rem; }
+  .artist__hero--title {
+    font-size: 4rem; }
+  .artist__hero--text {
+    font-size: 1.4rem;
+    color: #929297; }
+  .artist__hero--menu {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: -2rem; }
+    .artist__hero--menu a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      padding: 1rem 0;
+      border-bottom: 0.3rem solid transparent; }
+      .artist__hero--menu a:hover {
+        border-bottom: 0.3rem solid #30baf4; }
+  .artist__hero--setting {
+    display: flex;
+    gap: 1rem; }
+    .artist__hero--setting img {
+      box-sizing: content-box;
+      width: 2.5rem;
+      height: 2.5rem;
+      border: 0.3rem solid #fff;
+      border-radius: 50%;
+      padding: 0.5rem;
+      background-color: #fff; }
 
 .footer-section {
   background-color: #111313;

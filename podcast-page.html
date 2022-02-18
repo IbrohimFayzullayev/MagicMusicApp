@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Podcast Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/icon-fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header starts -->
+    <header class="header">
+      <div class="header__menu">
+        <img src="img/Full Logo.png" alt="logo" />
+        <a href="#">Browse</a>
+        <a href="#">Library</a>
+        <a href="#">Home</a>
+        <div class="header__list-2">
+          <a href="#">Podcasts </a>
+          <a href="#">/</a>
+          <a href="#">StarTalk Radio</a>
+        </div>
+      </div>
+      <div class="header__input">
+        <input class="header__input--search" type="text" placeholder="Search" />
+        <i class="header--icon icon-basic-home"></i>
+        <select class="header__input--select" name="name" id="name">
+          <option value="#">JohnDeo</option>
+        </select>
+      </div>
+    </header>
+    <!-- Header finished -->
+    <main class="main__home main__podcasts">
+      <div class="container">
+        <div class="artist__hero">
+          <div class="artist__hero--info">
+            <div class="artist__hero--img">
+              <img src="img/podcasts-page/hero-img.jpg" alt="hero" />
+            </div>
+            <div class="artist__hero--about">
+              <p class="artist__hero--head">Podcast</p>
+              <h2 class="artist__hero--title">StarTalk Radio</h2>
+              <p class="artist__hero--text">Neil deGrasse Tyson</p>
+              <div class="artist__hero--menu">
+                <a href="#">Episodes</a>
+                <a href="#">About</a>
+              </div>
+            </div>
+          </div>
+          <div class="artist__hero--setting">
+            <a href="#" class="btn play__btn">PLAY</a>
+            <img src="img/heart-outlined.svg" alt="svg" />
+            <img src="img/dots-three-horizontal.svg" alt="svg" />
+          </div>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <input
+              class="search__input"
+              type="search"
+              placeholder="Search episode"
+            />
+          </div>
+          <div class="section__setting">
+            <div class="small_circle"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
