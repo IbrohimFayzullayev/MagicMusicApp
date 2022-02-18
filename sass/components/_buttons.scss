@@ -36,3 +36,9 @@
     }
   }
 }
+.show__more--btn {
+  &:hover {
+    background-color: rgba($color-white, 0.8);
+    color: $color-primary;
+  }
+}
