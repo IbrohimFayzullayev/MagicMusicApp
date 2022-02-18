@@ -32,6 +32,10 @@
       gap: 3rem;
       align-items: center;
       justify-content: center;
+      i:hover {
+        color: $color-primary;
+        cursor: pointer;
+      }
     }
     &--play {
       font-size: 1.4rem;
@@ -58,6 +62,10 @@
     align-items: center;
     i {
       font-size: 1.6rem;
+      &:hover {
+        color: $color-primary;
+        cursor: pointer;
+      }
     }
     &--valume {
       margin-left: -1rem;

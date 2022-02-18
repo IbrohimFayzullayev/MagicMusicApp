@@ -197,6 +197,9 @@ a {
       gap: 3rem;
       align-items: center;
       justify-content: center; }
+      .player__music--set i:hover {
+        color: #30baf4;
+        cursor: pointer; }
     .player__music--play {
       font-size: 1.4rem;
       color: #929297;
@@ -214,6 +217,9 @@ a {
     align-items: center; }
     .player__setting i {
       font-size: 1.6rem; }
+      .player__setting i:hover {
+        color: #30baf4;
+        cursor: pointer; }
     .player__setting--valume {
       margin-left: -1rem;
       width: 8rem;
@@ -381,6 +387,20 @@ a {
       font-size: 1.5rem; }
       .header__list-2 a:active, .header__list-2 a:visited {
         transform: scale(1.1); }
+  .header__list--2 {
+    display: flex;
+    gap: 2rem;
+    align-items: center; }
+    .header__list--2 a {
+      font-size: 1.6rem;
+      text-decoration: none;
+      color: #929297;
+      padding: 1rem 0;
+      border-bottom: 0.3rem solid transparent;
+      transition: all 0.2s; }
+      .header__list--2 a:hover {
+        border-bottom: 0.3rem solid #7255ee;
+        color: #fff; }
 
 .section-hero-buttons {
   display: flex;
@@ -492,7 +512,7 @@ a {
 .main__home {
   background-color: #161a1a;
   color: #fff;
-  padding-top: 10rem; }
+  padding: 10rem 0; }
 
 .section_head {
   display: flex;
@@ -579,3 +599,56 @@ a {
 
 .section-boxes {
   padding: 4rem 0; }
+
+.main__genre {
+  background-image: url(../../img/genre-playlists/BG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.boxes__playlist {
+  row-gap: 3rem; }
+
+.genre__menu {
+  margin-top: 6rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center; }
+  .genre__menu a {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 0.3rem solid transparent;
+    padding: 0.5rem 0; }
+    .genre__menu a:hover {
+      transform: scale(1.1); }
+    .genre__menu a:active, .genre__menu a:visited {
+      border-bottom: 0.3rem solid #30baf4; }
+  .genre__menu--heading {
+    font-size: 4rem; }
+
+.add__playlist {
+  border: 0.3rem solid #fff;
+  border-radius: 1rem;
+  height: 82%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; }
+  .add__playlist a {
+    font-size: 4rem;
+    text-decoration: none;
+    color: #fff;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s; }
+    .add__playlist a:hover {
+      background-color: #30baf4; }
+  .add__playlist--text {
+    font-size: 1.2rem; }
