@@ -74,6 +74,12 @@ a {
   font-size: 1.2rem;
   color: #929297; }
 
+.section__title_order {
+  font-size: 1.4rem; }
+
+.section__head--album {
+  font-size: 1.4rem; }
+
 .btn {
   background-color: none;
   font-size: 1.6rem;
@@ -224,6 +230,14 @@ a {
 .section__title input {
   caret-color: green;
   padding-left: 2rem; }
+
+.gallery__img--box {
+  overflow: hidden;
+  border-radius: 1rem; }
+  .gallery__img--box img {
+    transition: all 0.2s; }
+  .gallery__img--box:hover img {
+    transform: scale(1.2); }
 
 .player {
   width: 90%;
@@ -403,6 +417,32 @@ a {
   .song__time {
     color: #929297; }
   .song__title {
+    color: #929297;
+    text-transform: uppercase;
+    margin: 2rem 0 0.2rem 0; }
+
+.album {
+  grid-template-columns: 1fr 8fr 10fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  margin: 1rem 0; }
+  .album:hover {
+    background-color: #444; }
+  .album__number {
+    font-size: 1.6rem;
+    color: #929297;
+    text-align: center; }
+  .album__img {
+    border-radius: 0.5rem; }
+    .album__img img {
+      border-radius: 0.5rem; }
+  .album__album {
+    color: #929297; }
+  .album__time {
+    color: #929297; }
+  .album__title {
     color: #929297;
     text-transform: uppercase;
     margin: 2rem 0 0.2rem 0; }

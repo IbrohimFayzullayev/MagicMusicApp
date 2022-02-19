@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Album</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/icon-fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header starts -->
+    <header class="header">
+      <div class="header__menu">
+        <img src="img/Full Logo.png" alt="logo" />
+        <a href="#">Browse</a>
+        <a href="#">Library</a>
+        <a href="#">Home</a>
+        <div class="header__list-2">
+          <a href="#">The Smashing Pumpkins</a>
+          <a href="#">/</a>
+          <a href="#">Mellon Collie and the infite Sadness</a>
+        </div>
+      </div>
+      <div class="header__input">
+        <input class="header__input--search" type="text" placeholder="Search" />
+        <i class="header--icon icon-basic-home"></i>
+        <select class="header__input--select" name="name" id="name">
+          <option value="#">JohnDeo</option>
+        </select>
+      </div>
+    </header>
+    <!-- Header finished -->
+    <main class="main__home main__album">
+      <div class="container">
+        <div class="artist__hero">
+          <div class="artist__hero--info">
+            <div class="artist__hero--img artist__hero--img--square">
+              <img src="img/album/album-hero.jpg" alt="hero" />
+            </div>
+            <div class="artist__hero--about">
+              <p class="artist__hero--head">Album</p>
+              <h2 class="artist__hero--title">
+                Mellon Collie and the infite Sadness
+              </h2>
+              <p class="artist__hero--text">The Smashing Pumpkins</p>
+              <p class="artist__hero--text">28 Songs,2 hr 13min</p>
+              <div class="artist__hero--menu"></div>
+            </div>
+          </div>
+          <div class="artist__hero--setting">
+            <a href="#" class="btn play__btn">PLAY</a>
+            <img src="img/heart-outlined.svg" alt="svg" />
+            <img src="img/dots-three-horizontal.svg" alt="svg" />
+          </div>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <span class="section__title_order"
+              ><i class="fa-solid fa-circle-dot"> 1 Side</i></span
+            >
+          </div>
+          <div class="section__head--up">
+            <span class="section__head--album">
+              Album Songs <i class="fa-solid fa-angle-up"></i>
+            </span>
+          </div>
+        </div>
+        <div class="album__box">
+          <div class="album grid song__title">
+            <p class="album__number">#</p>
+            <h4 class="album__name">Title</h4>
+            <h4 class="album__artist">Artist</h4>
+            <p class="album__time">Time</p>
+          </div>
+          <div class="album grid">
+            <p class="album__number">1</p>
+            <h4 class="album__name">Mellon Collie and the infite Sadness</h4>
+            <h4 class="album__artist">The Smashing Pumpkins</h4>
+            <p class="album__time">4:26</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="album grid">
+            <p class="album__number">2</p>
+            <h4 class="album__name">Tonight, Tonight</h4>
+            <h4 class="album__artist">The Smashing Pumpkins</h4>
+            <p class="album__time">4:26</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="album grid">
+            <p class="album__number">3</p>
+            <h4 class="album__name">Jellybelly</h4>
+            <h4 class="album__artist">The Smashing Pumpkins</h4>
+            <p class="album__time">4:26</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="album grid">
+            <p class="album__number">4</p>
+            <h4 class="album__name">Zero</h4>
+            <h4 class="album__artist">The Smashing Pumpkins</h4>
+            <p class="album__time">4:26</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="album grid">
+            <p class="album__number">5</p>
+            <h4 class="album__name">Here Is No Why</h4>
+            <h4 class="album__artist">The Smashing Pumpkins</h4>
+            <p class="album__time">4:26</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <span class="section__title_order"
+              ><i class="fa-solid fa-circle-dot"> 2 Side</i></span
+            >
+          </div>
+          <div class="section__head--up">
+            <span class="section__head--album">
+              Album Songs <i class="fa-solid fa-angle-up"></i>
+            </span>
+          </div>
+        </div>
+        <div class="album__box">
+          <div class="album grid song__title">
+            <p class="album__number">#</p>
+            <h4 class="album__name">Title</h4>
+            <h4 class="album__artist">Artist</h4>
+            <p class="album__time">Time</p>
+          </div>
+          <div class="album grid">
+            <p class="album__number">1</p>
+            <h4 class="album__name">Mellon Collie and the infite Sadness</h4>
+            <h4 class="album__artist">The Smashing Pumpkins</h4>
+            <p class="album__time">4:26</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="album grid">
+            <p class="album__number">2</p>
+            <h4 class="album__name">Tonight, Tonight</h4>
+            <h4 class="album__artist">The Smashing Pumpkins</h4>
+            <p class="album__time">4:26</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="album grid">
+            <p class="album__number">3</p>
+            <h4 class="album__name">Jellybelly</h4>
+            <h4 class="album__artist">The Smashing Pumpkins</h4>
+            <p class="album__time">4:26</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="album grid">
+            <p class="album__number">4</p>
+            <h4 class="album__name">Zero</h4>
+            <h4 class="album__artist">The Smashing Pumpkins</h4>
+            <p class="album__time">4:26</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="album grid">
+            <p class="album__number">5</p>
+            <h4 class="album__name">Here Is No Why</h4>
+            <h4 class="album__artist">The Smashing Pumpkins</h4>
+            <p class="album__time">4:26</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <h3 class="title_h3">Singles & EPs</h3>
+          </div>
+          <div class="section__allow">View All</div>
+        </div>
+        <div class="boxes grid grid-6-cols">
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/album/album-1.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Gish</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/album/album-2.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Siamese Dream</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/album/album-3.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Pisces Iscariot</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/album/album-4.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Mellon Collie And The Infini...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/album/album-5.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Machina / The Machines Of...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/album/album-6.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Oceania</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

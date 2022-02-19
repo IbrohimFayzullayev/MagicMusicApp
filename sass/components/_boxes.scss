@@ -83,3 +83,15 @@
   caret-color: green;
   padding-left: 2rem;
 }
+.gallery__img--box {
+  overflow: hidden;
+  border-radius: 1rem;
+  img {
+    transition: all 0.2s;
+  }
+  &:hover {
+    img {
+      transform: scale(1.2);
+    }
+  }
+}
