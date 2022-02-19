@@ -101,6 +101,9 @@ a {
   .btn--linear:active {
     background-image: linear-gradient(to right, rgba(48, 186, 244, 0.4), rgba(114, 85, 238, 0.4)); }
 
+.show__btn {
+  margin: 3rem 0; }
+
 .show__more--btn:hover {
   background-color: rgba(255, 255, 255, 0.8);
   color: #30baf4; }
@@ -238,6 +241,9 @@ a {
     transition: all 0.2s; }
   .gallery__img--box:hover img {
     transform: scale(1.2); }
+
+.section__setting i {
+  font-size: 2rem; }
 
 .player {
   width: 90%;
