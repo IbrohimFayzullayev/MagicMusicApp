@@ -1,0 +1,12 @@
+.sign_up {
+  background-color: $color-white;
+  color: $color-text;
+  width: 60rem;
+  margin: 0 auto;
+  position: fixed;
+  padding: 3rem 8rem;
+  border-radius: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

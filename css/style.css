@@ -604,6 +604,18 @@ a {
     visibility: visible;
     opacity: 1; }
 
+.sign_up {
+  background-color: #fff;
+  color: #555;
+  width: 60rem;
+  margin: 0 auto;
+  position: fixed;
+  padding: 3rem 8rem;
+  border-radius: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 .footer-section {
   background-color: #111313;
   padding: 8rem 0; }
