@@ -263,7 +263,7 @@ a {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  bottom: 0;
+  bottom: 1rem;
   left: 50%;
   transform: translateX(-50%); }
   .player__info {
