@@ -1,0 +1,32 @@
+.song {
+  grid-template-columns: 1fr 1fr 4fr 4fr 10fr 2fr 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  &:hover {
+    background-color: #444;
+  }
+  &__number {
+    font-size: 1.6rem;
+    color: $color-text-2;
+    text-align: center;
+  }
+  &__img {
+    border-radius: 0.5rem;
+    img {
+      border-radius: 0.5rem;
+    }
+  }
+  &__album {
+    color: $color-text-2;
+  }
+  &__time {
+    color: $color-text-2;
+  }
+  &__title {
+    color: $color-text-2;
+    text-transform: uppercase;
+    margin: 2rem 0 0.2rem 0;
+  }
+}

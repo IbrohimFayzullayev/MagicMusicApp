@@ -300,6 +300,10 @@ a {
       transition: all 0.3s; }
       .artist__hero--img img:hover {
         transform: scale(1.2); }
+    .artist__hero--img--circle {
+      border-radius: 50%; }
+      .artist__hero--img--circle img {
+        border-radius: 50%; }
   .artist__hero--info {
     display: flex;
     gap: 3rem;
@@ -322,7 +326,7 @@ a {
     .artist__hero--menu a {
       text-decoration: none;
       color: #fff;
-      font-size: 1.6rem;
+      font-size: 1.3rem;
       text-transform: uppercase;
       padding: 1rem 0;
       border-bottom: 0.3rem solid transparent; }
@@ -373,6 +377,31 @@ a {
 
 .proccess-linear {
   background-image: linear-gradient(to right, #30baf4 0%, #7255ee 60%, transparent 60% 100%); }
+
+.song {
+  grid-template-columns: 1fr 1fr 4fr 4fr 10fr 2fr 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  font-size: 1.6rem; }
+  .song:hover {
+    background-color: #444; }
+  .song__number {
+    font-size: 1.6rem;
+    color: #929297;
+    text-align: center; }
+  .song__img {
+    border-radius: 0.5rem; }
+    .song__img img {
+      border-radius: 0.5rem; }
+  .song__album {
+    color: #929297; }
+  .song__time {
+    color: #929297; }
+  .song__title {
+    color: #929297;
+    text-transform: uppercase;
+    margin: 2rem 0 0.2rem 0; }
 
 .footer-section {
   background-color: #111313;
@@ -799,3 +828,7 @@ a {
       background-color: #30baf4; }
   .add__playlist--text {
     font-size: 1.2rem; }
+
+.main__podcasts {
+  background-image: url(../../img/podcasts-page/BG.jpg);
+  background-size: cover; }

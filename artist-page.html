@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artist Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/icon-fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header starts -->
+    <header class="header">
+      <div class="header__menu">
+        <img src="img/Full Logo.png" alt="logo" />
+        <a href="#">Browse</a>
+        <a href="#">Library</a>
+        <a href="#">Home</a>
+        <div class="header__list-2">
+          <a href="#">Artists</a>
+          <a href="#">/</a>
+          <a href="#">Dawid Bowie</a>
+        </div>
+      </div>
+      <div class="header__input">
+        <input class="header__input--search" type="text" placeholder="Search" />
+        <i class="header--icon icon-basic-home"></i>
+        <select class="header__input--select" name="name" id="name">
+          <option value="#">JohnDeo</option>
+        </select>
+      </div>
+    </header>
+    <!-- Header finished -->
+    <main class="main__home main__artist">
+      <div class="container">
+        <div class="artist__hero">
+          <div class="artist__hero--info">
+            <div class="artist__hero--img artist__hero--img--circle">
+              <img src="img/artist-page/artist-hero.jpg" alt="hero" />
+            </div>
+            <div class="artist__hero--about">
+              <p class="artist__hero--head">Artist</p>
+              <h2 class="artist__hero--title">David Bowie</h2>
+              <p class="artist__hero--text"></p>
+              <div class="artist__hero--menu">
+                <a href="#">Overview</a>
+                <a href="#">About</a>
+                <a href="#">Fans also like</a>
+              </div>
+            </div>
+          </div>
+          <div class="artist__hero--setting">
+            <a href="#" class="btn play__btn">PLAY</a>
+            <img src="img/heart-outlined.svg" alt="svg" />
+            <img src="img/dots-three-horizontal.svg" alt="svg" />
+          </div>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <h3 class="title_h3">Popular songs</h3>
+          </div>
+          <div class="section__allow">
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+        <div class="songs__box">
+          <div class="song grid song__title">
+            <p class="song__number">#</p>
+            <div class="song__img"></div>
+            <h4 class="song__name">Title</h4>
+            <h4 class="song__artist">Artist</h4>
+            <p class="song__album">Album</p>
+            <p class="song__time">Time</p>
+          </div>
+          <div class="song grid">
+            <p class="song__number">1</p>
+            <div class="song__img">
+              <img src="img/artist-page/popular-song-1.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Heroes</h4>
+            <h4 class="song__artist">David Bowie</h4>
+            <p class="song__album">Heroes</p>
+            <p class="song__time">6:11</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">2</p>
+            <div class="song__img">
+              <img src="img/artist-page/popular-song-2.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Life On Mars</h4>
+            <h4 class="song__artist">David Bowie</h4>
+            <p class="song__album">Hunky Dory</p>
+            <p class="song__time">3:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">3</p>
+            <div class="song__img">
+              <img src="img/artist-page/popular-song-3.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Ashes To Ashes</h4>
+            <h4 class="song__artist">David Bowie</h4>
+            <p class="song__album">Scary Monsters (and Super Creeps)</p>
+            <p class="song__time">4:26</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">4</p>
+            <div class="song__img">
+              <img src="img/artist-page/popular-song-4.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Starman</h4>
+            <h4 class="song__artist">David Bowie</h4>
+            <p class="song__album">
+              The Rise and Fall of Ziggy Stardust and the Spiders from Mars
+            </p>
+            <p class="song__time">4:14</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">5</p>
+            <div class="song__img">
+              <img src="img/artist-page/popular-song-5.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Changes</h4>
+            <h4 class="song__artist">David Bowie</h4>
+            <p class="song__album">Hunky Dory</p>
+            <p class="song__time">3:38</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+        </div>
+        <div class="show__btn text-center">
+          <a class="show__more--btn btn" href="#">Show 5 More</a>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <h3 class="title_h3">Albums</h3>
+          </div>
+          <div class="section__allow">View All</div>
+        </div>
+        <div class="boxes grid grid-6-cols">
+          <div class="box__column gallery__box">
+            <img
+              class="gallery__img"
+              src="img/artist-page/artist-album-1.jpg"
+              alt="gallery"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Dance</h4>
+              <div class="like__text">
+                <p class="like__report">Released:15/02/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <img
+              class="gallery__img"
+              src="img/artist-page/artist-album-2.jpg"
+              alt="gallery"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Glastonbury 2000 (Live)</h4>
+              <div class="like__text">
+                <p class="like__report">Released: 30/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <img
+              class="gallery__img"
+              src="img/artist-page/artist-album-3.jpg"
+              alt="gallery"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Welcome To The Blackout (Li...</h4>
+              <div class="like__text">
+                <p class="like__report">Released: 20/04/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <img
+              class="gallery__img"
+              src="img/artist-page/artist-album-4.jpg"
+              alt="gallery"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Stage (2017) (Live)</h4>
+              <div class="like__text">
+                <p class="like__report">Released:15/02/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <img
+              class="gallery__img"
+              src="img/artist-page/artist-album-5.jpg"
+              alt="gallery"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Cracked Actor (Live) (Los Ang...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:15/02/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <img
+              class="gallery__img"
+              src="img/artist-page/artist-album-6.jpg"
+              alt="gallery"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Blackstar</h4>
+              <div class="like__text">
+                <p class="like__report">Released:15/02/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <img
+              class="gallery__img"
+              src="img/artist-page/artist-album-7.jpg"
+              alt="gallery"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">The Next Day</h4>
+              <div class="like__text">
+                <p class="like__report">Released:15/02/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <img
+              class="gallery__img"
+              src="img/artist-page/artist-album-8.jpg"
+              alt="gallery"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">A Reality Tour</h4>
+              <div class="like__text">
+                <p class="like__report">Released:15/02/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <img
+              class="gallery__img"
+              src="img/artist-page/artist-album-9.jpg"
+              alt="gallery"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">VH1 Storytellers (Live)</h4>
+              <div class="like__text">
+                <p class="like__report">Released:15/02/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <img
+              class="gallery__img"
+              src="img/artist-page/artist-album-10.jpg"
+              alt="gallery"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Reality</h4>
+              <div class="like__text">
+                <p class="like__report">Released:15/02/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <img
+              class="gallery__img"
+              src="img/artist-page/artist-album-11.jpg"
+              alt="gallery"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Heathen</h4>
+              <div class="like__text">
+                <p class="like__report">Released:15/02/2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <img
+              class="gallery__img"
+              src="img/artist-page/artist-album-12.jpg"
+              alt="gallery"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Hours</h4>
+              <div class="like__text">
+                <p class="like__report">Released:15/02/2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="show__btn text-center">
+          <a class="show__more--btn btn" href="#">Show More</a>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <h3 class="title_h3">Singles & EPs</h3>
+          </div>
+          <div class="section__allow">View All</div>
+        </div>
+        <div class="boxes grid grid-6-cols">
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-singles-1.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Let's Dance (Nile Rodgers' St...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-singles-2.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Let's Dance (Nile Rodgers' St...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-singles-3.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Let's Dance (Nile Rodgers' St...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-singles-4.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Let's Dance (Nile Rodgers' St...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-singles-5.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Let's Dance (Nile Rodgers' St...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-singles-6.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Let's Dance (Nile Rodgers' St...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-singles-7.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Let's Dance (Nile Rodgers' St...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-singles-8.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Let's Dance (Nile Rodgers' St...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-singles-8.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Let's Dance (Nile Rodgers' St...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-singles-10.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Let's Dance (Nile Rodgers' St...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-singles-11.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Let's Dance (Nile Rodgers' St...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-singles-12.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">Let's Dance (Nile Rodgers' St...</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="show__btn text-center">
+          <a class="show__more--btn btn" href="#">Show More</a>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <h3 class="title_h3">Appear in these playlists</h3>
+          </div>
+          <div class="section__allow">View All</div>
+        </div>
+        <div class="boxes grid grid-6-cols">
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-apears-1.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">80s Symphonic</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-apears-2.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">80s Symphonic</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-apears-3.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">80s Symphonic</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-apears-4.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">80s Symphonic</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-apears-5.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">80s Symphonic</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column gallery__box">
+            <div class="gallery__img--box">
+              <img
+                class="gallery__img"
+                src="img/artist-page/artist-apears-6.jpg"
+                alt="gallery"
+              />
+            </div>
+            <div class="bottom__info">
+              <h4 class="heading__4">80s Symphonic</h4>
+              <div class="like__text">
+                <p class="like__report">Released:16/11/2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="show__btn text-center">
+          <a class="show__more--btn btn" href="#">Show More</a>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <h3 class="title_h3">Fans Also Like</h3>
+          </div>
+          <div class="section__allow">
+            <a href="#">
+              <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <div class="boxes grid grid-6-cols">
+          <div class="box__column artist__box">
+            <img
+              class="artist__img"
+              src="img/home/artists-1.jpg"
+              alt="artist"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Queen</h4>
+              <div class="like__text">
+                <i class="icon-basic-heart"></i>
+                <p class="like__report">947,118</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column artist__box">
+            <img
+              class="artist__img"
+              src="img/home/artists-2.jpg"
+              alt="artist"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Queen</h4>
+              <div class="like__text">
+                <i class="icon-basic-heart"></i>
+                <p class="like__report">947,118</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column artist__box">
+            <img
+              class="artist__img"
+              src="img/home/artists-3.jpg"
+              alt="artist"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Queen</h4>
+              <div class="like__text">
+                <i class="icon-basic-heart"></i>
+                <p class="like__report">947,118</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column artist__box">
+            <img
+              class="artist__img"
+              src="img/home/artists-4.jpg"
+              alt="artist"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Queen</h4>
+              <div class="like__text">
+                <i class="icon-basic-heart"></i>
+                <p class="like__report">947,118</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column artist__box">
+            <img
+              class="artist__img"
+              src="img/home/artists-5.jpg"
+              alt="artist"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Queen</h4>
+              <div class="like__text">
+                <i class="icon-basic-heart"></i>
+                <p class="like__report">947,118</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column artist__box">
+            <img
+              class="artist__img"
+              src="img/home/artists-6.jpg"
+              alt="artist"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Queen</h4>
+              <div class="like__text">
+                <i class="icon-basic-heart"></i>
+                <p class="like__report">947,118</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
