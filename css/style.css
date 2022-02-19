@@ -558,6 +558,52 @@ a {
     color: #929297;
     margin: 1rem 0; }
 
+.search {
+  border-radius: 0.5rem;
+  width: 33rem;
+  background-color: #303033;
+  color: #fff;
+  padding: 2rem;
+  position: fixed;
+  top: 8rem;
+  right: 7.5rem;
+  height: 75vh;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0; }
+  .search__title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    margin: 2rem 0; }
+  .search__text {
+    color: #929297; }
+  .search__songs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; }
+    .search__songs--box {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center; }
+    .search__songs--img {
+      border-radius: 0.5rem; }
+      .search__songs--img img {
+        border-radius: 0.5rem;
+        transition: all 0.2s; }
+        .search__songs--img img:hover {
+          transform: translateY(-1rem); }
+    .search__songs--info {
+      display: flex;
+      font-size: 1.4rem;
+      flex-direction: column;
+      gap: 0.5rem; }
+    .search__songs--text {
+      color: #929297; }
+  .search:target {
+    visibility: visible;
+    opacity: 1; }
+
 .footer-section {
   background-color: #111313;
   padding: 8rem 0; }
@@ -743,8 +789,8 @@ a {
   height: 100vh;
   background-image: url(../../img/landing-hero-bg.jpg);
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
   color: #fff; }
   .section-hero--box {
@@ -937,9 +983,8 @@ a {
 
 .main__genre {
   background-image: url(../../img/genre-playlists/BG.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
+  background-attachment: fixed;
+  background-size: cover; }
 
 .boxes__playlist {
   row-gap: 3rem; }
@@ -987,6 +1032,26 @@ a {
       background-color: #30baf4; }
   .add__playlist--text {
     font-size: 1.2rem; }
+
+.main__playlist {
+  background-image: url(../../img/Playlists/BG.png);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.main__album {
+  background-image: url(../../img/album/BG.png);
+  background-size: cover;
+  background-attachment: fixed; }
+
+.main__artist {
+  background-image: url(../../img/artist-page/artist-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+
+.main__create {
+  background-image: url(../../img/created-playlist/BG.png);
+  background-size: cover;
+  background-attachment: fixed; }
 
 .main__podcasts {
   background-image: url(../../img/podcasts-page/BG.jpg);

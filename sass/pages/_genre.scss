@@ -1,8 +1,7 @@
 .main__genre {
   background-image: url(../../img/genre-playlists/BG.jpg);
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .boxes__playlist {
   row-gap: 3rem;
@@ -58,4 +57,24 @@
   &--text {
     font-size: 1.2rem;
   }
+}
+.main__playlist {
+  background-image: url(../../img/Playlists/BG.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.main__album {
+  background-image: url(../../img/album/BG.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main__artist {
+  background-image: url(../../img/artist-page/artist-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main__create {
+  background-image: url(../../img/created-playlist/BG.png);
+  background-size: cover;
+  background-attachment: fixed;
 }
