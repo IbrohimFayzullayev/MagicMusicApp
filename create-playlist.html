@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create PLaylist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/icon-fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header starts -->
+    <header class="header">
+      <div class="header__menu">
+        <img src="img/Full Logo.png" alt="logo" />
+        <a href="#">Browse</a>
+        <a href="#">Library</a>
+        <a href="#">Home</a>
+        <div class="header__list-2">
+          <a href="#">Playlists</a>
+          <a href="#">/</a>
+          <a href="#">Classic rock</a>
+        </div>
+      </div>
+      <div class="header__input">
+        <input class="header__input--search" type="text" placeholder="Search" />
+        <i class="header--icon icon-basic-home"></i>
+        <select class="header__input--select" name="name" id="name">
+          <option value="#">JohnDeo</option>
+        </select>
+      </div>
+    </header>
+    <!-- Header finished -->
+    <main class="main__home">
+      <div class="container">
+        <div class="artist__hero">
+          <div class="artist__hero--info">
+            <div class="artist__hero--img artist__hero--img--square">
+              <img src="img/created-playlist/create-hero.jpg" alt="hero" />
+            </div>
+            <div class="artist__hero--about">
+              <p class="artist__hero--head">Creared Playlist</p>
+              <h2 class="artist__hero--title">Classic Rock</h2>
+              <p class="artist__hero--text">No description</p>
+              <p class="artist__hero--text">13 songs 1 hr 13min</p>
+              <div class="artist__hero--menu"></div>
+            </div>
+          </div>
+          <div class="artist__hero--setting">
+            <a href="#" class="btn play__btn">SHUFLE PLAY</a>
+            <a class="show__more--btn btn" href="#">Edit</a>
+            <img src="img/dots-three-horizontal.svg" alt="svg" />
+          </div>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <input
+              class="search__input"
+              type="search"
+              placeholder="Playlist search"
+            />
+          </div>
+          <div class="section__head--up">
+            <i class="fa-solid fa-angle-up"></i>
+          </div>
+        </div>
+        <div class="songs__box">
+          <div class="song grid song__title">
+            <p class="song__number">#</p>
+            <div class="song__img"></div>
+            <h4 class="song__name">Title</h4>
+            <h4 class="song__artist">Artist</h4>
+            <p class="song__album">Album</p>
+            <p class="song__time">Time</p>
+          </div>
+          <div class="song grid">
+            <p class="song__number">1</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-1.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Bicycle Rase</h4>
+            <h4 class="song__artist">Queen</h4>
+            <p class="song__album">Jazz</p>
+            <p class="song__time">3:15</p>
+            <i class="song__like"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">2</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-2.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Bicycle Rase</h4>
+            <h4 class="song__artist">Queen</h4>
+            <p class="song__album">Jazz</p>
+            <p class="song__time">3:15</p>
+            <i class="song__like"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">3</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-3.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Bicycle Rase</h4>
+            <h4 class="song__artist">Queen</h4>
+            <p class="song__album">Jazz</p>
+            <p class="song__time">3:15</p>
+            <i class="song__like"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">4</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-4.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Bicycle Rase</h4>
+            <h4 class="song__artist">Queen</h4>
+            <p class="song__album">Jazz</p>
+            <p class="song__time">3:15</p>
+            <i class="song__like"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">5</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-5.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Bicycle Rase</h4>
+            <h4 class="song__artist">Queen</h4>
+            <p class="song__album">Jazz</p>
+            <p class="song__time">3:15</p>
+            <i class="song__like"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">6</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-6.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Bicycle Rase</h4>
+            <h4 class="song__artist">Queen</h4>
+            <p class="song__album">Jazz</p>
+            <p class="song__time">3:15</p>
+            <i class="song__like"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">7</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-7.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Bicycle Rase</h4>
+            <h4 class="song__artist">Queen</h4>
+            <p class="song__album">Jazz</p>
+            <p class="song__time">3:15</p>
+            <i class="song__like"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">8</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-8.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Bicycle Rase</h4>
+            <h4 class="song__artist">Queen</h4>
+            <p class="song__album">Jazz</p>
+            <p class="song__time">3:15</p>
+            <i class="song__like"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">9</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-9.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Bicycle Rase</h4>
+            <h4 class="song__artist">Queen</h4>
+            <p class="song__album">Jazz</p>
+            <p class="song__time">3:15</p>
+            <i class="song__like"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">10</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-10.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Bicycle Rase</h4>
+            <h4 class="song__artist">Queen</h4>
+            <p class="song__album">Jazz</p>
+            <p class="song__time">3:15</p>
+            <i class="song__like"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">11</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-11.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Bicycle Rase</h4>
+            <h4 class="song__artist">Queen</h4>
+            <p class="song__album">Jazz</p>
+            <p class="song__time">3:15</p>
+            <i class="song__like"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">12</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-12.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Bicycle Rase</h4>
+            <h4 class="song__artist">Queen</h4>
+            <p class="song__album">Jazz</p>
+            <p class="song__time">3:15</p>
+            <i class="song__like"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <a class="show__more--btn btn" href="#">Refresh</a>
+          </div>
+          <div class="section__allow">Recommended songs</div>
+        </div>
+        <div class="songs__box">
+          <div class="song grid song__title">
+            <p class="song__number">#</p>
+            <div class="song__img"></div>
+            <h4 class="song__name">Title</h4>
+            <h4 class="song__artist">Artist</h4>
+            <p class="song__album">Album</p>
+            <p class="song__time">Time</p>
+          </div>
+          <div class="song grid">
+            <p class="song__number">1</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-1.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Time</h4>
+            <h4 class="song__artist">Pink Floyd</h4>
+            <p class="song__album">The dark side of the Moon</p>
+            <p class="song__time"></p>
+            <i class="song__like"></i>
+            <a class="show__more--btn btn" href="#">Add</a>
+          </div>
+          <div class="song grid">
+            <p class="song__number">2</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-2.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Time</h4>
+            <h4 class="song__artist">Pink Floyd</h4>
+            <p class="song__album">The dark side of the Moon</p>
+            <p class="song__time"></p>
+            <i class="song__like"></i>
+            <a class="show__more--btn btn" href="#">Add</a>
+          </div>
+          <div class="song grid">
+            <p class="song__number">3</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-4.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Time</h4>
+            <h4 class="song__artist">Pink Floyd</h4>
+            <p class="song__album">The dark side of the Moon</p>
+            <p class="song__time"></p>
+            <i class="song__like"></i>
+            <a class="show__more--btn btn" href="#">Add</a>
+          </div>
+          <div class="song grid">
+            <p class="song__number">4</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-6.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Time</h4>
+            <h4 class="song__artist">Pink Floyd</h4>
+            <p class="song__album">The dark side of the Moon</p>
+            <p class="song__time"></p>
+            <i class="song__like"></i>
+            <a class="show__more--btn btn" href="#">Add</a>
+          </div>
+          <div class="song grid">
+            <p class="song__number">5</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-5.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Time</h4>
+            <h4 class="song__artist">Pink Floyd</h4>
+            <p class="song__album">The dark side of the Moon</p>
+            <p class="song__time"></p>
+            <i class="song__like"></i>
+            <a class="show__more--btn btn" href="#">Add</a>
+          </div>
+          <div class="song grid">
+            <p class="song__number">6</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-7.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Time</h4>
+            <h4 class="song__artist">Pink Floyd</h4>
+            <p class="song__album">The dark side of the Moon</p>
+            <p class="song__time"></p>
+            <i class="song__like"></i>
+            <a class="show__more--btn btn" href="#">Add</a>
+          </div>
+          <div class="song grid">
+            <p class="song__number">7</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-9.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Time</h4>
+            <h4 class="song__artist">Pink Floyd</h4>
+            <p class="song__album">The dark side of the Moon</p>
+            <p class="song__time"></p>
+            <i class="song__like"></i>
+            <a class="show__more--btn btn" href="#">Add</a>
+          </div>
+          <div class="song grid">
+            <p class="song__number">8</p>
+            <div class="song__img">
+              <img
+                src="img/created-playlist/create-playlist-11.jpg"
+                alt="song img"
+              />
+            </div>
+            <h4 class="song__name">Time</h4>
+            <h4 class="song__artist">Pink Floyd</h4>
+            <p class="song__album">The dark side of the Moon</p>
+            <p class="song__time"></p>
+            <i class="song__like"></i>
+            <a class="show__more--btn btn" href="#">Add</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
