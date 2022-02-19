@@ -7,6 +7,10 @@
   border-radius: 1rem;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   &__info {
     display: flex;
     gap: 1.5rem;
