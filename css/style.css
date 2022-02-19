@@ -221,6 +221,10 @@ a {
       color: #929297;
       line-height: 1.4; }
 
+.section__title input {
+  caret-color: green;
+  padding-left: 2rem; }
+
 .player {
   width: 90%;
   margin: 0 auto;

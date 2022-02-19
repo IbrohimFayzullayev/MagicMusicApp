@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playlist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/icon-fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header starts -->
+    <header class="header">
+      <div class="header__menu">
+        <img src="img/Full Logo.png" alt="logo" />
+        <a href="#">Browse</a>
+        <a href="#">Library</a>
+        <a href="#">Home</a>
+        <div class="header__list-2">
+          <a href="#">ROCK</a>
+          <a href="#">/</a>
+          <a href="#">70s Rock Anthems</a>
+        </div>
+      </div>
+      <div class="header__input">
+        <input class="header__input--search" type="text" placeholder="Search" />
+        <i class="header--icon icon-basic-home"></i>
+        <select class="header__input--select" name="name" id="name">
+          <option value="#">JohnDeo</option>
+        </select>
+      </div>
+    </header>
+    <!-- Header finished -->
+    <main class="main__home main__playlist">
+      <div class="container">
+        <div class="artist__hero">
+          <div class="artist__hero--info">
+            <div class="artist__hero--img artist__hero--img--circle">
+              <img src="img/Playlists/playlist-hero.jpg" alt="hero" />
+            </div>
+            <div class="artist__hero--about">
+              <p class="artist__hero--head">Playlist</p>
+              <h2 class="artist__hero--title">70s Rock Anthems</h2>
+              <p class="artist__hero--text">
+                Golden age of rock, Cover:Led Zeppelin
+              </p>
+              <p class="artist__hero--text">88 Songs,9 hr 13min</p>
+              <div class="artist__hero--menu"></div>
+            </div>
+          </div>
+          <div class="artist__hero--setting">
+            <a href="#" class="btn play__btn">PAUSE</a>
+            <img src="img/heart-outlined.svg" alt="svg" />
+            <img src="img/dots-three-horizontal.svg" alt="svg" />
+          </div>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <input
+              class="search__input"
+              type="search"
+              placeholder="Search episode"
+            />
+          </div>
+          <div class="section__head--up">
+            <i class="fa-solid fa-angle-up"></i>
+          </div>
+        </div>
+        <div class="songs__box">
+          <div class="song grid song__title">
+            <p class="song__number">#</p>
+            <div class="song__img"></div>
+            <h4 class="song__name">Title</h4>
+            <h4 class="song__artist">Artist</h4>
+            <p class="song__album">Album</p>
+            <p class="song__time">Time</p>
+          </div>
+          <div class="song grid">
+            <p class="song__number">1</p>
+            <div class="song__img">
+              <img src="img/Playlists/playlist-1.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Rhiannon</h4>
+            <h4 class="song__artist">Fleetwood Mac</h4>
+            <p class="song__album">Diamond Dogs</p>
+            <p class="song__time">5:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">2</p>
+            <div class="song__img">
+              <img src="img/Playlists/playlist-2.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Rhiannon</h4>
+            <h4 class="song__artist">Fleetwood Mac</h4>
+            <p class="song__album">Diamond Dogs</p>
+            <p class="song__time">5:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">3</p>
+            <div class="song__img">
+              <img src="img/Playlists/playlist-3.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Rhiannon</h4>
+            <h4 class="song__artist">Fleetwood Mac</h4>
+            <p class="song__album">Diamond Dogs</p>
+            <p class="song__time">5:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">4</p>
+            <div class="song__img">
+              <img src="img/Playlists/playlist-4.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Rhiannon</h4>
+            <h4 class="song__artist">Fleetwood Mac</h4>
+            <p class="song__album">Diamond Dogs</p>
+            <p class="song__time">5:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">5</p>
+            <div class="song__img">
+              <img src="img/Playlists/playlist-5.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Rhiannon</h4>
+            <h4 class="song__artist">Fleetwood Mac</h4>
+            <p class="song__album">Diamond Dogs</p>
+            <p class="song__time">5:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">6</p>
+            <div class="song__img">
+              <img src="img/Playlists/playlist-6.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Rhiannon</h4>
+            <h4 class="song__artist">Fleetwood Mac</h4>
+            <p class="song__album">Diamond Dogs</p>
+            <p class="song__time">5:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">7</p>
+            <div class="song__img">
+              <img src="img/Playlists/playlist-7.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Rhiannon</h4>
+            <h4 class="song__artist">Fleetwood Mac</h4>
+            <p class="song__album">Diamond Dogs</p>
+            <p class="song__time">5:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">8</p>
+            <div class="song__img">
+              <img src="img/Playlists/playlist-8.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Rhiannon</h4>
+            <h4 class="song__artist">Fleetwood Mac</h4>
+            <p class="song__album">Diamond Dogs</p>
+            <p class="song__time">5:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">9</p>
+            <div class="song__img">
+              <img src="img/Playlists/playlist-9.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Rhiannon</h4>
+            <h4 class="song__artist">Fleetwood Mac</h4>
+            <p class="song__album">Diamond Dogs</p>
+            <p class="song__time">5:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">10</p>
+            <div class="song__img">
+              <img src="img/Playlists/playlist-10.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Rhiannon</h4>
+            <h4 class="song__artist">Fleetwood Mac</h4>
+            <p class="song__album">Diamond Dogs</p>
+            <p class="song__time">5:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">11</p>
+            <div class="song__img">
+              <img src="img/Playlists/playlist-1.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Rhiannon</h4>
+            <h4 class="song__artist">Fleetwood Mac</h4>
+            <p class="song__album">Diamond Dogs</p>
+            <p class="song__time">5:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+          <div class="song grid">
+            <p class="song__number">12</p>
+            <div class="song__img">
+              <img src="img/Playlists/playlist-6.jpg" alt="song img" />
+            </div>
+            <h4 class="song__name">Rhiannon</h4>
+            <h4 class="song__artist">Fleetwood Mac</h4>
+            <p class="song__album">Diamond Dogs</p>
+            <p class="song__time">5:56</p>
+            <i class="fa-solid fa-heart song__like"></i>
+            <i class="fa-solid fa-plus song__plus"></i>
+          </div>
+        </div>
+        <div class="section_head">
+          <div class="section__title">
+            <h3 class="title_h3">Featured artists</h3>
+          </div>
+          <div class="section__allow">
+            <a href="#">
+              <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <div class="boxes grid grid-6-cols">
+          <div class="box__column artist__box">
+            <img
+              class="artist__img"
+              src="img/home/artists-1.jpg"
+              alt="artist"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Queen</h4>
+              <div class="like__text">
+                <i class="icon-basic-heart"></i>
+                <p class="like__report">947,118</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column artist__box">
+            <img
+              class="artist__img"
+              src="img/home/artists-2.jpg"
+              alt="artist"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Queen</h4>
+              <div class="like__text">
+                <i class="icon-basic-heart"></i>
+                <p class="like__report">947,118</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column artist__box">
+            <img
+              class="artist__img"
+              src="img/home/artists-3.jpg"
+              alt="artist"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Queen</h4>
+              <div class="like__text">
+                <i class="icon-basic-heart"></i>
+                <p class="like__report">947,118</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column artist__box">
+            <img
+              class="artist__img"
+              src="img/home/artists-4.jpg"
+              alt="artist"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Queen</h4>
+              <div class="like__text">
+                <i class="icon-basic-heart"></i>
+                <p class="like__report">947,118</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column artist__box">
+            <img
+              class="artist__img"
+              src="img/home/artists-5.jpg"
+              alt="artist"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Queen</h4>
+              <div class="like__text">
+                <i class="icon-basic-heart"></i>
+                <p class="like__report">947,118</p>
+              </div>
+            </div>
+          </div>
+          <div class="box__column artist__box">
+            <img
+              class="artist__img"
+              src="img/home/artists-6.jpg"
+              alt="artist"
+            />
+            <div class="bottom__info">
+              <h4 class="heading__4">Queen</h4>
+              <div class="like__text">
+                <i class="icon-basic-heart"></i>
+                <p class="like__report">947,118</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
