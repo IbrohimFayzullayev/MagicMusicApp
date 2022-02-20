@@ -110,3 +110,35 @@
   text-decoration: none;
   color: $color-black;
 }
+.sign_in--btn {
+  text-decoration: none;
+  padding: 0.6rem 9rem;
+  text-align: center;
+  border: 0.1rem solid $color-black;
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  color: $color-black;
+}
+.sign__in--remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.remember__me {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.log_in--btn {
+  text-decoration: none;
+  padding: 0.5rem 4rem;
+  border: none;
+  border-radius: 3rem;
+  text-align: center;
+  color: $color-white;
+  background-color: $color-primary;
+  &:hover {
+    background-color: $color-primary-dark;
+  }
+}

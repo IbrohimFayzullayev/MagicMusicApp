@@ -704,6 +704,37 @@ a {
   text-decoration: none;
   color: #000; }
 
+.sign_in--btn {
+  text-decoration: none;
+  padding: 0.6rem 9rem;
+  text-align: center;
+  border: 0.1rem solid #000;
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  color: #000; }
+
+.sign__in--remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem; }
+
+.remember__me {
+  display: flex;
+  gap: 1rem;
+  align-items: center; }
+
+.log_in--btn {
+  text-decoration: none;
+  padding: 0.5rem 4rem;
+  border: none;
+  border-radius: 3rem;
+  text-align: center;
+  color: #fff;
+  background-color: #30baf4; }
+  .log_in--btn:hover {
+    background-color: #7255ee; }
+
 .footer-section {
   background-color: #111313;
   padding: 8rem 0; }
