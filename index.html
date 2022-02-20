@@ -26,7 +26,7 @@
             <a href="#">Download</a>
             <a href="#">Help</a>
             <a href="#" class="btn btn--white">Log in</a>
-            <a href="#" class="btn btn--white">Sign up</a>
+            <a href="#sign_up" class="btn btn--white">Sign up</a>
           </div>
         </header>
         <div class="section-hero--box">
@@ -245,6 +245,7 @@
       </div>
     </footer>
     <div class="sign_up" id="sign_up">
+      <a class="close--icon" href="#"> &#10006; </a>
       <h3 class="sign_up--title">Ready to sign up ?</h3>
       <div class="sign_up__social">
         <div class="sign_up__social--box facebook--box">
@@ -261,11 +262,17 @@
         <input type="email" placeholder="RandomExample@gmail.com" />
       </div>
       <div class="sign_up__input">
-        <label for="email">Password</label>
-        <input type="email" placeholder="*********" />
+        <label for="password">Password</label>
+        <input type="password" placeholder="*********" />
       </div>
       <div class="sign_up__input">
-        <input type="email" placeholder="Username" />
+        <label for="username"></label>
+        <input
+          type="text"
+          autocomplete="off"
+          id="username"
+          placeholder="Username"
+        />
       </div>
       <div class="sign_up__select">
         <select class="sign_up--selection" name="#" id="#">
@@ -281,7 +288,7 @@
       <div class="recaptcha__box">
         <div class="recaptcha__box--info">
           <input type="checkbox" name="#" id="#" />
-          <p class="not__robot">I;m not robot</p>
+          <p class="not__robot">I'm not robot</p>
         </div>
         <div class="recaptcha__box--img">
           <img src="img/sign-up/RecaptchaLogo.png" alt="#" />
