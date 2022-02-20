@@ -657,6 +657,9 @@ a {
   transform: translate(-50%, -50%);
   opacity: 0;
   visibility: hidden; }
+  @media (max-width: 600px) {
+    .sign_up {
+      width: 30rem; } }
   .sign_up:target {
     visibility: visible;
     opacity: 1; }

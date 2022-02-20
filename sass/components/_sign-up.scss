@@ -11,6 +11,9 @@
   transform: translate(-50%, -50%);
   opacity: 0;
   visibility: hidden;
+  @include phone {
+    width: 30rem;
+  }
   &:target {
     visibility: visible;
     opacity: 1;
