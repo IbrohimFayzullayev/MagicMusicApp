@@ -5,6 +5,12 @@
 }
 html {
   font-size: 62.5%;
+  @include tablet {
+    font-size: 56.25%;
+  }
+  @include tab-port {
+    font-size: 56.25%;
+  }
 }
 body {
   font-family: "Lato", sans-serif;

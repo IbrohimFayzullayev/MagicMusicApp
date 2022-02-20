@@ -5,6 +5,12 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 1200px) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 900px) {
+    html {
+      font-size: 56.25%; } }
 
 body {
   font-family: "Lato", sans-serif; }
@@ -100,6 +106,12 @@ a {
     border: 0.2rem solid rgba(48, 186, 244, 0.4); }
   .btn--linear:active {
     background-image: linear-gradient(to right, rgba(48, 186, 244, 0.4), rgba(114, 85, 238, 0.4)); }
+  @media (max-width: 600px) {
+    .btn--linear:hover {
+      background-image: none;
+      border: 0.2rem solid #fff; }
+    .btn--linear:active {
+      background-image: none; } }
 
 .show__btn {
   margin: 3rem 0; }
@@ -142,12 +154,26 @@ a {
   gap: 6rem;
   color: #fff;
   margin: 0 auto; }
+  @media (max-width: 600px) {
+    .music-card {
+      flex-direction: column;
+      align-items: center;
+      gap: 7rem; } }
   .music-card-box {
     border: 0.3rem solid #fff;
     border-radius: 5px;
     padding: 2rem;
     width: 20%;
     box-sizing: border-box; }
+    @media (max-width: 1200px) {
+      .music-card-box {
+        width: 35%; } }
+    @media (max-width: 900px) {
+      .music-card-box {
+        width: 45%; } }
+    @media (max-width: 600px) {
+      .music-card-box {
+        width: 65%; } }
   .music-card-price {
     font-size: 1.8rem; }
   .music-card--list {
@@ -165,6 +191,20 @@ a {
     text-align: center;
     display: flex;
     gap: 14rem; }
+    @media (max-width: 1200px) {
+      .music-card-button {
+        width: 65%;
+        gap: 20rem;
+        justify-content: center; } }
+    @media (max-width: 900px) {
+      .music-card-button {
+        width: 100%; } }
+    @media (max-width: 600px) {
+      .music-card-button {
+        flex-direction: column;
+        width: 60%;
+        gap: 31rem;
+        margin-top: -33rem; } }
 
 .musicbox-premium {
   border: 0.3rem solid #30baf4; }
@@ -742,6 +782,10 @@ a {
 .footer--flexbox {
   display: grid;
   grid-template-columns: 3fr 2fr; }
+  @media (max-width: 900px) {
+    .footer--flexbox {
+      display: flex;
+      flex-direction: column; } }
 
 .footer__menu {
   display: flex;
@@ -758,12 +802,29 @@ a {
     color: #555;
     text-transform: uppercase;
     font-size: 1.4rem; }
+  @media (max-width: 600px) {
+    .footer__menu {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 4rem;
+      row-gap: 2rem; } }
+  @media (max-width: 600px) {
+    .footer__menu--logo {
+      grid-column: 1/3; } }
 
 .footer__social {
   text-align: right;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+  @media (max-width: 900px) {
+    .footer__social {
+      flex-direction: row;
+      align-items: center;
+      margin: 1.5rem 0; } }
+  @media (max-width: 600px) {
+    .footer__social {
+      margin: 2rem 0; } }
   .footer__social--box {
     display: flex;
     justify-content: flex-end;
@@ -783,9 +844,15 @@ a {
   display: flex;
   justify-content: space-between;
   margin: 3rem 0 0 0; }
+  @media (max-width: 600px) {
+    .footer__bottom {
+      margin: 1rem 0; } }
   .footer__bottom--menu {
     display: flex;
     gap: 1.5rem; }
+    @media (max-width: 600px) {
+      .footer__bottom--menu {
+        gap: 2rem; } }
 
 [class^="footer__bottom--"] a {
   text-decoration: none;
@@ -818,7 +885,14 @@ a {
   position: fixed;
   width: 80%;
   top: 0;
-  backdrop-filter: blur(5px); }
+  margin: 0 auto;
+  backdrop-filter: blur(5px);
+  left: 50%;
+  transform: translateX(-50%); }
+  @media (max-width: 900px) {
+    .header__landing {
+      width: 90%;
+      padding: 1rem 0; } }
   .header__landing--menu {
     display: flex;
     align-items: center;
@@ -834,7 +908,6 @@ a {
   justify-content: space-between;
   padding: 3rem 6rem;
   position: fixed;
-  width: 100%;
   top: 0;
   backdrop-filter: blur(4px);
   z-index: 150; }
@@ -924,6 +997,9 @@ a {
   background-attachment: fixed;
   overflow: hidden;
   color: #fff; }
+  @media (max-width: 1200px) {
+    .section-hero {
+      width: 100vw; } }
   .section-hero--box {
     margin-top: 15rem;
     display: flex;
@@ -931,10 +1007,24 @@ a {
     gap: 3rem;
     justify-content: center;
     align-items: center; }
+  .section-hero-buttons {
+    display: flex;
+    flex-direction: column; }
+    .section-hero-buttons a {
+      width: 150%; }
 
 .container {
   max-width: 120rem;
   margin: 0 auto; }
+  @media (max-width: 1200px) {
+    .container {
+      max-width: 90rem; } }
+  @media (max-width: 900px) {
+    .container {
+      max-width: 60rem; } }
+  @media (max-width: 600px) {
+    .container {
+      max-width: 45rem; } }
 
 .container__small {
   max-width: 80rem;
@@ -949,9 +1039,19 @@ a {
     display: flex;
     gap: 15rem;
     align-items: center; }
+    @media (max-width: 900px) {
+      .section-flow--box {
+        flex-direction: column;
+        gap: 5rem; } }
+    @media (max-width: 600px) {
+      .section-flow--box {
+        flex-direction: column; } }
   .section-flow--img {
     width: 50%;
     box-sizing: border-box; }
+    @media (max-width: 900px) {
+      .section-flow--img {
+        width: 80%; } }
     .section-flow--img img {
       width: 100%; }
 
@@ -960,6 +1060,9 @@ a {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 40rem; }
+  @media (max-width: 900px) {
+    .flow-info {
+      width: 80%; } }
   .flow-info--title {
     display: flex;
     align-items: center;
@@ -980,6 +1083,16 @@ a {
     display: flex;
     flex-direction: column;
     gap: 3rem; }
+    @media (max-width: 1200px) {
+      .section-listen-info {
+        margin-left: -48rem; } }
+    @media (max-width: 900px) {
+      .section-listen-info {
+        margin-left: -37rem; } }
+    @media (max-width: 600px) {
+      .section-listen-info {
+        margin-left: -10rem;
+        margin-top: 50rem; } }
 
 .section-music {
   padding: 7rem 0;
@@ -989,9 +1102,19 @@ a {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10rem; }
+    @media (max-width: 900px) {
+      .section-music-hero {
+        flex-direction: column-reverse; } }
+    @media (max-width: 600px) {
+      .section-music-hero {
+        flex-direction: column-reverse;
+        margin-top: 10rem; } }
     .section-music-hero--img {
       width: 45%;
       box-sizing: border-box; }
+      @media (max-width: 900px) {
+        .section-music-hero--img {
+          width: 90%; } }
       .section-music-hero--img img {
         width: 100%; }
     .section-music-hero--info {
@@ -999,6 +1122,9 @@ a {
       display: flex;
       flex-direction: column;
       gap: 3rem; }
+      @media (max-width: 900px) {
+        .section-music-hero--info {
+          max-width: 56rem; } }
   .section-music--icons {
     display: flex;
     gap: 6rem;
@@ -1006,6 +1132,16 @@ a {
     justify-content: center;
     max-width: 70rem;
     margin: 4rem auto; }
+    @media (max-width: 900px) {
+      .section-music--icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem; } }
+    @media (max-width: 600px) {
+      .section-music--icons {
+        display: flex;
+        flex-direction: column;
+        gap: 0rem; } }
     .section-music--icons-box {
       text-align: center;
       color: #fff;
@@ -1013,6 +1149,22 @@ a {
       flex-direction: column;
       gap: 0.5rem;
       align-items: center; }
+      @media (max-width: 900px) {
+        .section-music--icons-box {
+          display: grid;
+          gap: 0.1rem;
+          grid-template-columns: 1fr 3fr;
+          grid-template-rows: 1fr 1fr 1fr 1fr; } }
+      @media (max-width: 900px) {
+        .section-music--icons-box {
+          grid-template-columns: 1fr 2fr;
+          grid-template-rows: 1fr 1fr 1fr 1fr; } }
+      @media (max-width: 900px) {
+        .section-music--icons-box h3 {
+          grid-row: 2/3; } }
+      @media (max-width: 900px) {
+        .section-music--icons-box p {
+          grid-row: 3/4; } }
       .section-music--icons-box img {
         padding: 1rem;
         border-radius: 50%;
@@ -1020,6 +1172,9 @@ a {
         width: 9rem;
         height: 9rem;
         margin-bottom: 1.5rem; }
+        @media (max-width: 900px) {
+          .section-music--icons-box img {
+            grid-row: 1/5; } }
 
 .main__home {
   background-color: #161a1a;

@@ -6,6 +6,10 @@
   &--flexbox {
     display: grid;
     grid-template-columns: 3fr 2fr;
+    @include tab-port {
+      display: flex;
+      flex-direction: column;
+    }
   }
   &__menu {
     display: flex;
@@ -25,12 +29,31 @@
       text-transform: uppercase;
       font-size: 1.4rem;
     }
+    @include phone {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 4rem;
+      row-gap: 2rem;
+    }
+    &--logo {
+      @include phone {
+        grid-column: 1/3;
+      }
+    }
   }
   &__social {
     text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @include tab-port {
+      flex-direction: row;
+      align-items: center;
+      margin: 1.5rem 0;
+    }
+    @include phone {
+      margin: 2rem 0;
+    }
     &--box {
       display: flex;
       justify-content: flex-end;
@@ -53,9 +76,15 @@
     display: flex;
     justify-content: space-between;
     margin: 3rem 0 0 0;
+    @include phone {
+      margin: 1rem 0;
+    }
     &--menu {
       display: flex;
       gap: 1.5rem;
+      @include phone {
+        gap: 2rem;
+      }
     }
   }
 }
