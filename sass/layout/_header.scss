@@ -33,6 +33,7 @@
   position: fixed;
   top: 0;
   backdrop-filter: blur(4px);
+  width: 100%;
   z-index: 150;
   &__menu {
     display: flex;

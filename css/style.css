@@ -913,6 +913,7 @@ a {
   position: fixed;
   top: 0;
   backdrop-filter: blur(4px);
+  width: 100%;
   z-index: 150; }
   .header__menu {
     display: flex;
@@ -1010,11 +1011,12 @@ a {
     gap: 3rem;
     justify-content: center;
     align-items: center; }
-  .section-hero-buttons {
-    display: flex;
-    flex-direction: column; }
-    .section-hero-buttons a {
-      width: 150%; }
+  @media (max-width: 600px) {
+    .section-hero-buttons {
+      display: flex;
+      flex-direction: column; }
+      .section-hero-buttons a {
+        width: 150%; } }
 
 .container {
   max-width: 120rem;
